@@ -30,7 +30,12 @@ const Sidebar = () => {
       <nav className="navbar">
         <ul>
           <li className="nav-item">
-            <NavLink exact className="nav-link" to="/" activeClassName="active">
+            <NavLink
+              exact
+              className="nav-link"
+              to="/admin"
+              activeClassName="active"
+            >
               <i>
                 <RiDashboardLine />
               </i>

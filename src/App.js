@@ -9,7 +9,7 @@ function App() {
     <div className="main">
       <Sidebar />
       <Switch>
-        <Route exact path="/" component={Overview} />
+        <Route exact path="/admin" component={Overview} />
       </Switch>
     </div>
   );
